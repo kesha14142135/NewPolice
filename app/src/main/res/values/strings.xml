@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">New Police</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pref_credential">preference_credential</string>
+    <string name="credential">credential</string>
+    <string name="authorization">Авторизация</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="error_login_empty">Заполните поле</string>
+    <string name="error_password_empty">Заполните поле</string>
+    <string name="error_password_min">Больше 4 символов</string>
+    <string name="error_authorisation">Проверте ввод логина и пароля</string>
+    <string name="id_miss_child">id_miss_child</string>
+    <string name="offset">offset</string>
+    <string name="years" />
+    <string name="male">MALE</string>
+    <string name="women_rus">Женский</string>
+    <string name="male_rus">Мужской</string>
+    <string name="lorem">Екатерина</string>
+    <string name="miss_child">Пропавшие дети</string>
+    <string name="comments_button">Комментарии</string>
+
+    <string name="child_name">Имя ребенка: %s</string>
+    <string name="child_birth">Дата рождения: %s</string>
+    <string name="child_gender">Пол: %s</string>
+    <string name="child_description">Описание ребенка: %s</string>
+    <string name="region">Район пропажи: %s</string>
+    <string name="situation">Ситуация: %s</string>
+    <string name="time_loss">Время пропажи: %s</string>
+    <string name="time_request">Время заявки: %s</string>
+    <string name="status">Статус: %s</string>
+    <string name="comments">Коментарии</string>
+    <string name="miss_children">Пропавшие дети</string>
+    <string name="non_item">Нет комментариев</string>
+
+    <plurals name="plurals_years">
+        <item quantity="one">%d год</item>
+        <item quantity="few">%d года</item>
+        <item quantity="many">%d лет</item>
+        <item quantity="other">%d года</item>
+    </plurals>
+</resources>

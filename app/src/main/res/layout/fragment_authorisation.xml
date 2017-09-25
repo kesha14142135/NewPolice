@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.authorisation.AuthorisationFragment">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_authorization"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/image_view_logo"
+            android:layout_width="@dimen/image_view_logo_height"
+            android:layout_height="@dimen/image_view_logo_height"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/image_layout_margin_top"
+            android:background="@drawable/policeman" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/image_view_logo"
+            android:layout_marginBottom="@dimen/relative_layout_margin_bottom"
+            android:layout_marginLeft="@dimen/relative_layout_margin"
+            android:layout_marginRight="@dimen/relative_layout_margin"
+            android:layout_marginTop="@dimen/relative_layout_margin">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_login"
+                    style="@style/CardViewTheme"
+                    android:layout_marginBottom="@dimen/edit_text_phone_number_margin_bottom"
+                    app:cardElevation="@dimen/card_view_elevation">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/edit_text_login"
+                            style="@style/EditTextTheme"
+                            android:hint="@string/login"
+                            android:inputType="textEmailAddress" />
+                    </android.support.design.widget.TextInputLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_password"
+                    style="@style/CardViewTheme"
+                    android:layout_below="@id/card_view_login"
+                    android:layout_marginBottom="@dimen/edit_text_password_margin_bottom"
+                    app:cardElevation="@dimen/card_view_elevation">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:passwordToggleEnabled="true">
+
+                        <EditText
+                            android:id="@+id/edit_text_password"
+                            style="@style/EditTextTheme"
+                            android:hint="@string/password"
+                            android:inputType="textPassword" />
+                    </android.support.design.widget.TextInputLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_layout_button_authorization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <Button
+                    android:id="@+id/button_authorization"
+                    style="@style/ButtonTheme"
+                    android:background="@drawable/elevation_background"
+                    android:text="@string/authorization" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar_authorisation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</FrameLayout>

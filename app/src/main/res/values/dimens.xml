@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //authorisation
+    <dimen name="image_view_logo_height">100dp</dimen>
+    <dimen name="image_view_logo_margin">100dp</dimen>
+    <dimen name="relative_layout_margin">20dp</dimen>
+    <dimen name="relative_layout_margin_bottom">7dp</dimen>
+    <dimen name="button_height_authorisation">44dp</dimen>
+    <dimen name="edit_text_margin">4dp</dimen>
+    <dimen name="edit_text_phone_number_margin_bottom">16dp</dimen>
+    <dimen name="edit_text_authorization_height">40dp</dimen>
+    <dimen name="edit_text_padding_left">20dp</dimen>
+    <dimen name="card_view_elevation">3dp</dimen>
+    <dimen name="edit_text_password_margin_bottom">40dp</dimen>
+    <dimen name="image_layout_margin_bottom">50dp</dimen>
+    <dimen name="image_layout_margin_top">50dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="layout_margin">16dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="button_back_width">34dp</dimen>
+    <dimen name="button_back_height">30dp</dimen>
+    <dimen name="top_margin">4dp</dimen>
+    <dimen name="margin_rigth">10dp</dimen>
+</resources>
